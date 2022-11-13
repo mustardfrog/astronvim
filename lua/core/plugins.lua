@@ -1,6 +1,19 @@
 local astro_plugins = {
   -- Plugin manager
+  ["alaviss/nim.nvim"] = {},
   ["wbthomason/packer.nvim"] = {},
+  ["catppuccin/nvim"] = {
+  },
+  ["B4mbus/oxocarbon-lua.nvim"] = {},
+
+  ["rose-pine/neovim"] = 
+  {
+    as = 'rose-pine',
+  },
+    -- as = 'rose-pine',
+    -- config = function()
+        -- end
+
 
   -- Optimiser
   ["lewis6991/impatient.nvim"] = {},
